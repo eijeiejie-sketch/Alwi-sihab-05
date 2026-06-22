@@ -3,7 +3,7 @@ let alas = Number(prompt('masukan alas : '))
 let tinggi = Number(prompt('masukan tinggi : '))
 
 let luas = alas * tinggi 
-let keliling = alas + tinggi + (Math.sqrt(Math.pow(alas, 2) + Math.pow(tinggi, 2)))
+let keliling = alas + tinggi + (alas ^ 2) + (tinggi ^ 2)
 
 console.log('===============')
 console.log('   H A S I L   ')
