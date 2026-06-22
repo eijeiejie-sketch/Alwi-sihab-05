@@ -2,7 +2,7 @@ const prompt = require('prompt-sync')({sigint: true});
 let jari = Number(prompt('Masukan Jari-Jari : '))
 let tinggi = Number(prompt('Masukan tinggi : '))
 
-let volume = 3.14 * Math.pow(jari, 2) * tinggi
+let volume = 3.14 * (jari ^ 2) * tinggi
 let Luasp = 2 * 3.14 * jari * (jari + tinggi)
 
 console.log('===============')
