@@ -1,8 +1,8 @@
 const prompt = require('prompt-sync')({sigint: true});
 let sisi = Number(prompt('Masukan sisi : '))
 
-let luas = Math.pow(sisi, 3)
-let keliling = 6 * Math.pow(sisi, 2)
+let luas = (sisi ^ 3)
+let keliling = 6 * (sisi ^ 2)
 
 console.log('===============')
 console.log('   H A S I L   ')
